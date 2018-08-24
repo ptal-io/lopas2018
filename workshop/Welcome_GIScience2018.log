@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.4.27)  24 AUG 2018 12:32
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017/Debian) (preloaded format=xelatex 2018.4.27)  24 AUG 2018 12:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1776,19 +1776,28 @@ File: figures/program.png Graphic file (type bmp)
 <figures/program.png>
  [13
 
-] [14
+]
+File: figures/specialissue.png Graphic file (type bmp)
+<figures/specialissue.png>
+
+Overfull \vbox (33.30066pt too high) detected at line 214
+ []
+
+[14
+
+] [15
 
 ]
-Overfull \vbox (176.49014pt too high) detected at line 239
+Overfull \vbox (176.49014pt too high) detected at line 243
  []
 
 
-Overfull \vbox (51.57182pt too high) detected at line 239
+Overfull \vbox (51.57182pt too high) detected at line 243
  []
 
 File: figures/melbourne.jpg Graphic file (type bmp)
 <figures/melbourne.jpg>
-[15
+[16
 
 ]
 \tf@nav=\write6
@@ -1800,23 +1809,29 @@ File: figures/melbourne.jpg Graphic file (type bmp)
 \tf@snm=\write8
 \openout8 = `Welcome_GIScience2018.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 241.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 241.
- (./Welcome_GIScience2018.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 241.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 241.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 245.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 245.
+ (./Welcome_GIScience2018.aux
+*************************************************
+* pdfbase warning: "rerun"
+* 
+* Rerun to get internal references right!
+*************************************************
+)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 245.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 245.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 46593 strings out of 494915
- 1084190 string characters out of 6176198
+ 46597 strings out of 494915
+ 1084291 string characters out of 6176198
  1331280 words of memory out of 5000000
- 49685 multiletter control sequences out of 15000+600000
+ 49688 multiletter control sequences out of 15000+600000
  533460 words of font info for 62 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  71i,13n,100p,10445b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Welcome_GIScience2018.pdf (15 pages).
+Output written on Welcome_GIScience2018.pdf (16 pages).
