@@ -1,46 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2017)
 Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: Geoprivacy_editorial.aux
 The style file: plain.bst
 Database file #1: editorial.bib
-You've used 13 entries,
+You've used 14 entries,
             2118 wiz_defined-function locations,
-            569 strings with 6020 characters,
-and the built_in function-call counts, 4123 in all, are:
-= -- 406
-> -- 186
+            578 strings with 6115 characters,
+and the built_in function-call counts, 4404 in all, are:
+= -- 436
+> -- 193
 < -- 2
-+ -- 76
-- -- 60
-* -- 261
-:= -- 694
-add.period$ -- 40
-call.type$ -- 13
-change.case$ -- 69
++ -- 79
+- -- 62
+* -- 283
+:= -- 741
+add.period$ -- 43
+call.type$ -- 14
+change.case$ -- 73
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 170
-empty$ -- 332
-format.name$ -- 60
-if$ -- 861
+cite$ -- 14
+duplicate$ -- 181
+empty$ -- 357
+format.name$ -- 62
+if$ -- 918
 int.to.chr$ -- 0
-int.to.str$ -- 13
-missing$ -- 13
-newline$ -- 68
-num.names$ -- 26
-pop$ -- 74
+int.to.str$ -- 14
+missing$ -- 14
+newline$ -- 73
+num.names$ -- 28
+pop$ -- 76
 preamble$ -- 1
-purify$ -- 56
+purify$ -- 59
 quote$ -- 0
-skip$ -- 119
+skip$ -- 126
 stack$ -- 0
-substring$ -- 224
-swap$ -- 35
+substring$ -- 248
+swap$ -- 36
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 52
+type$ -- 56
 warning$ -- 0
-while$ -- 42
-width$ -- 15
-write$ -- 140
+while$ -- 46
+width$ -- 16
+write$ -- 151

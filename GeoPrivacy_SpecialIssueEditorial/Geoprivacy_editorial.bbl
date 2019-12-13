@@ -56,21 +56,26 @@ John Krumm.
 \newblock A survey of computational location privacy.
 \newblock {\em Personal and Ubiquitous Computing}, 13(6):391--399, 2009.
 
+\bibitem{census2020}
+Logan Kugler.
+\newblock Protecting the 2020 census.
+\newblock {\em Commun. ACM}, 62(7):17--19, June 2019.
+
 \bibitem{liu2018}
 Xi~Liu, Hanzhou Chen, and Clio Andris.
-\newblock trajgans: Using generative adversarial networks for geo-privacy
-  protection of trajectory data (vision paper).
+\newblock {trajGANs: Using generative adversarial networks for geo-privacy
+  protection of trajectory data (Vision paper)}.
 \newblock In {\em Location Privacy and Security Workshop}, 2018.
 
 \bibitem{naghizadeseeking}
 Elham Naghizade, Jeffrey Chan, and Martin Tomko.
-\newblock Seeking mr \& ms regular: Sentinels to characterize crowd dynamics
-  (vision paper).
+\newblock {Seeking Mr \& Ms Regular: Sentinels to Characterize Crowd Dynamics
+  (Vision Paper)}.
 \newblock In {\em Location Privacy and Security Workshop}, 2018.
 
 \bibitem{rubinstein2017diffpriv}
 Benjamin~IP Rubinstein and Francesco Alda.
-\newblock diffpriv: An r package for easy differential privacy.
+\newblock {diffpriv: An R Package for Easy Differential Privacy}.
 \newblock {\em Journal of Machine Learning Research}, 18:1--5, 2017.
 
 \end{thebibliography}
