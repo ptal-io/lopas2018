@@ -1,0 +1,76 @@
+\begin{thebibliography}{10}
+
+\bibitem{armstrong2005geographic}
+Marc~P Armstrong and Amy~J Ruggles.
+\newblock Geographic information technologies and personal privacy.
+\newblock {\em Cartographica: The International Journal for Geographic
+  Information and Geovisualization}, 40(4):63--73, 2005.
+
+\bibitem{dobson2003geoslavery}
+Jerome~E Dobson and Peter~F Fisher.
+\newblock Geoslavery.
+\newblock {\em IEEE Technology and Society Magazine}, 22(1):47--52, 2003.
+
+\bibitem{duckham2005formal}
+Matt Duckham and Lars Kulik.
+\newblock A formal model of obfuscation and negotiation for location privacy.
+\newblock In {\em International conference on pervasive computing}, pages
+  152--170. Springer, 2005.
+
+\bibitem{dwork2011differential}
+Cynthia Dwork.
+\newblock Differential privacy.
+\newblock {\em Encyclopedia of Cryptography and Security}, pages 338--340,
+  2011.
+
+\bibitem{gao2018}
+Song Gao and Qunying Huang.
+\newblock Exploring the effectiveness of geomasking techniques for protecting
+  the geoprivacy of twitter users.
+\newblock In {\em Location Privacy and Security Workshop}, 2018.
+
+\bibitem{gao2019exploring}
+Song Gao, Jinmeng Rao, Xinyi Liu, Yuhao Kang, Qunying Huang, and Joseph App.
+\newblock Exploring the effectiveness of geomasking techniques for protecting
+  the geoprivacy of twitter users.
+\newblock {\em Journal of Spatial Information Science}, 2019.
+
+\bibitem{glueck2019}
+Jeff Glueck.
+\newblock How to stop the abuse of location data.
+\newblock {\em {The New York Times}}, 2019.
+
+\bibitem{katsomallos2019privacy}
+Manos Katsomallos, Katerina Tzompanaki, and Dimitris Kotzinos.
+\newblock Privacy, space and time: a survey on privacy-preserving continuous
+  data publishing.
+\newblock {\em Journal of Spatial Information Science}, 2019.
+
+\bibitem{kessler2018geoprivacy}
+Carsten Ke{\ss}ler and Grant McKenzie.
+\newblock A geoprivacy manifesto.
+\newblock {\em Transactions in GIS}, 22(1):3--19, 2018.
+
+\bibitem{krumm2009survey}
+John Krumm.
+\newblock A survey of computational location privacy.
+\newblock {\em Personal and Ubiquitous Computing}, 13(6):391--399, 2009.
+
+\bibitem{liu2018}
+Xi~Liu, Hanzhou Chen, and Clio Andris.
+\newblock trajgans: Using generative adversarial networks for geo-privacy
+  protection of trajectory data (vision paper).
+\newblock In {\em Location Privacy and Security Workshop}, 2018.
+
+\bibitem{naghizadeseeking}
+Elham Naghizade, Jeffrey Chan, and Martin Tomko.
+\newblock Seeking mr \& ms regular: Sentinels to characterize crowd dynamics
+  (vision paper).
+\newblock In {\em Location Privacy and Security Workshop}, 2018.
+
+\bibitem{rubinstein2017diffpriv}
+Benjamin~IP Rubinstein and Francesco Alda.
+\newblock diffpriv: An r package for easy differential privacy.
+\newblock {\em Journal of Machine Learning Research}, 18:1--5, 2017.
+
+\end{thebibliography}

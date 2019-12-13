@@ -1,0 +1,104 @@
+%% josis.tex 1.2   2009-06-11    JoSIS latex template 
+%------------------------------------------------------------------
+% Filename: josis.tex
+%
+% This file is intended as a template for typesetting articles for the
+%
+%                        Journal of Spatial Information Science.
+%
+% Please edit this template to generate your own formatted manuscripts 
+% for submission to JOSIS. See http://josis.org for further details.
+%
+% The template was developed by Matt Duckham (http://www.duckham.org) 
+% 
+
+% Required documentclass definition for JOSIS
+\documentclass{josised}
+\usepackage{fixltx2e}
+\usepackage{tabularx}
+\usepackage[colorlinks=false]{hyperref}
+\usepackage[hyphenbreaks]{breakurl}
+\usepackage{multirow}
+\usepackage{todonotes}
+
+\newcommand{\mydoi}[1]{\href{http://dx.doi.org/#1}{doi:#1}}
+
+\hypersetup{
+colorlinks=false,
+linkbordercolor={1 1 1}, % set to white
+citebordercolor={1 1 1}, % set to white
+urlbordercolor={1 1 1} % set to white
+} 
+
+%\urlstyle{same}
+\newcommand{\articletype}{\textsc{Editorial}}
+
+
+% Page setup and overhangs
+\sloppy
+\widowpenalty=10000
+\clubpenalty=500
+\hyphenpenalty=500
+
+% Article details for accepted manuscripts will be added by editorial staff 
+% Article details for accepted manuscripts will be added by editorial staff 
+\josisdetails{%
+   number=NN, year=YYYY, firstpage=xx, lastpage=yy, doi={10.5311/JOSIS.YYYY.NN.ZZZ}}
+
+\makeatletter 
+\renewcommand{\josis@bannerpubdata}
+           {\fontsize{9}{11}\usefont{OT1}{ptm}{m}{n}\selectfont
+            {Number \josis@number\ (\josis@year), 
+              p. \josis@declaredfirstpage}}
+\makeatother   
+
+% Add the running author and running title information
+\runningauthor{\begin{minipage}{.9\textwidth}\centering McKenzie, Ke{\ss}ler, Andris\end{minipage}}
+\runningtitle{Editorial}
+
+\begin{document}
+%\setcounter{page}{85}
+
+% Insert your own title
+\title{Geospatial Privacy and Security}
+
+\maketitle
+
+	\thispagestyle{titlepage}
+
+Location privacy has been a topic of research for many years but has recently experienced a resurgence in public interest. This renewed interest is driven by recent advances in location-enabled devices, sensors and context-aware technology, and the rise of the Internet of Things (IoT). The data generated via these sensors and devices are being collected, analyzed, and synthesized at an unprecedented rate. While much of these data are used in the advancement of products or services (e.g., navigation technologies), many individuals remain unaware of the information that is being collected, how it is being collected, and more importantly, how it is being used. The resulting information extracted from these personal data have contributed to significant advances in the computational and geospatial sciences, e.g., location recommendations or health services, but these advances often come at the high cost of reduced location privacy. 
+
+From an academic perspective, geospatial privacy and security are crucial topic with roots in computer science, geography, sociology and psychology, demonstrated by a long history of location privacy discussion in both industry and academia (e.g., \cite{dobson2003geoslavery,duckham2005formal,krumm2009survey,armstrong2005geographic,kessler2018geoprivacy}).  While it is often discussed at a theoretical level, it has major societal implications that reach beyond these disciplines and into everyday life. To give a timely example, the US government, acknowledging the potential for abuse, is limiting access to the data for the upcoming 2020 Census, choosing to protected citizen information via differential privacy in order to impede the fusing of these data with other dataset for the purpose of identifying individuals.
+
+In today’s digital world, the ``right to be forgotten,'' is becoming increasingly difficult. It is almost impossible to remove an individual’s digital footprint from the public sphere. In a recent editorial in the New York Times, the CEO of the location data \& intelligence company Foursquare called on the U.S. Congress to regulate the location industry~\cite{glueck2019}.The General Data Protection Regulation (GDPR) in Europe is a good first step, but the road is long.  Citizens are beginning to take back ownership of their private information, asking corporations what they know about them, and requesting access and removal of such data. There are regional variations in privacy regulations though and the cost of violating an individual’s digital privacy varies substantially.  The plethora of services accessing your personal and location information is often hard to keep track of, meaning we often don’t realize when our privacy has been violated.
+
+Many aspects of location privacy are inherently unique in character, and geospatial data scientists are well-versed to lead this discussion. While a typical conversation on the topic of privacy inevitably turns to the protection of credit cards, bank accounts, or social security numbers, protecting one’s location data is arguably more important.  For instance, we share each other’s personal locations, innocuously, without them knowing.  Current technologies and tools exist that are so new that we still don’t really know what to do with them (e.g, Social media mapping platforms such as \textit{SnapMaps}).  Newer generations view these technologies as a standard for social interaction unconsciously making the decision to pay for a monetarily free application using personal data as currency.  Lack of awareness concerning the contribution of these location data have led to web applications such as \textit{PleaseRobMe.com} and blatant social concerns such as the tracking of citizens by their governments.  For the average person who is not in this predicament, however, location disclosure makes them vulnerable to aggressive marketing and location-based advertising. These techniques and technologies are way ahead of most legal regulations and policy makers are not able to keep up.  Finally, advances in artificial intelligence (e.g., tools such as neural network) have promised to make significant contributions in spatial domains such a autonomous vehicles, feature detection, etc.  Again, these advances come with a cost,  often increasing the speed and easy with which an individual, or groups are identified.
+
+Lastly, a few words on the origins of this special issue.  This issue was born out of the Location Privacy and Security Workshop held in conjunction with the 10th International Conference on Geographical Information Science (GIScience) held in Melbourne, Australia on August 28th, 2018.  The workshop was aimed at facilitating a discussion surrounding current methods and techniques related to location privacy as well as the social and political implications of sharing or preserving location privacy, among others. Contributions and discussion at the workshop revolved around methods and techniques for securing location information, following a keynote presentation on the operationalization of differential privacy~\cite{dwork2011differential} by Dr. Benjamin Rubinstein~\cite{rubinstein2017diffpriv}.   Three papers were accepted to the workshop~\cite{naghizadeseeking,gao2018,liu2018} and all participants were invited to submit full papers to this special issue.
+
+After careful review, to papers were accepted for this special issue, a novel research manuscript entitled \textit{Exploring the Effectiveness of Geomasking Techniques for Protecting the Geoprivacy of Twitter Users} by Gao et al.~\cite{gao2019exploring}, and a survey manuscript entitled \textit{Privacy, Space and Time: A Survey on Privacy-Preserving Continuous Data Publishing} by Katsomallos et al.~\cite{katsomallos2019privacy}.  We thank these authors for their contribution to the domain of geospatial privacy and security.
+
+
+
+\bigskip
+
+\bigskip
+
+\begin{raggedleft}
+Grant McKenzie\\
+\textit{McGill University, Canada} \\
+\bigskip
+Carsten Ke{\ss}ler\\
+\textit{Aalborg University, Denmark} \\
+\bigskip
+Clio Andris\\
+\textit{Georgia Institute of Technology, USA} \\
+
+
+\bibliographystyle{plain}
+\bibliography{editorial}
+
+
+\end{raggedleft}
+
+\end{document} 
